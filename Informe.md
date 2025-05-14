@@ -51,8 +51,10 @@
 3. **Integración CRM** para triggers de marketing.  
 4. **A/B Testing** de ofertas (MTM → Anual) medido por retención a 90 días.
 
----
+> ## 5 · Dashboard 🔄
 
-## 5 · Contacto
+[Dashboard]([(https://challenge2-han9byqwmpgrpwl3lnjqdp.streamlit.app/])
+
+## 6 · Contacto
 
 Juan José Ramos · [LinkedIn]([https://www.linkedin.com/in/juanjramos/](https://www.linkedin.com/in/juan-jose-ramos-b2253727/)) · juan.ramos.s@usach.cl
