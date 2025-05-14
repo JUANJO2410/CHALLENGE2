@@ -1,0 +1,11 @@
+# Dependencias mínimas para reproducir el proyecto TelecomX LATAM
+# Versiones recomendadas (probadas en mayo-2025)
+
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+lightgbm>=4.3
+streamlit>=1.35
+plotly>=5.20
+jupyterlab>=4.2
+ipykernel>=6.29
