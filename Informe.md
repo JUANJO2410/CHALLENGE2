@@ -43,3 +43,16 @@
 | 5 | **Feedback loop** mensual al modelo | Toda la base | Mantener ROC‑AUC > 0,80 |
 
 > 🎯 **Prioridad:** Acciones 1 y 2 entregan el mayor _ROI_ inmediato sobre ingresos recurrentes.
+>
+> ## 4 · Roadmap de seguimiento 🔄
+
+1. **Despliegue cloud** del dashboard en Azure Web Apps.  
+2. **Automatizar scoring semanal** (GitHub Actions + Streamlit Cache).  
+3. **Integración CRM** para triggers de marketing.  
+4. **A/B Testing** de ofertas (MTM → Anual) medido por retención a 90 días.
+
+---
+
+## 5 · Contacto
+
+Juan José Ramos · [LinkedIn]([https://www.linkedin.com/in/juanjramos/](https://www.linkedin.com/in/juan-jose-ramos-b2253727/)) · juan.ramos.s@usach.cl
