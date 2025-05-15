@@ -81,8 +81,8 @@ col3.metric("ARPU (US$)", f"{df_filt['CARGO_MENSUAL'].mean():.2f}")
 st.divider()
 
 # 5. Gráficos con pestañas usando Plotly
-tab_intro, tab1, tab2, tab3 = st.tabs(
-    ["ℹ️ Introducción", "Género / Senior", "Fidelidad", "Cruces"]
+tab_intro, tab1, tab2, tab3, tab_conclusiones = st.tabs(
+    ["ℹ️ Introducción", "Género / Senior", "Fidelidad", "Cruces", "Conclusiones"]
 )
 # -------- Pestaña 0: explicación general --------------------------
 with tab_intro:
@@ -163,6 +163,57 @@ with tab3:
     )
     cross['%Bajas'] = cross['Bajas']/cross.sum(axis=1)*100
     st.dataframe(cross.style.format({'%Bajas':'{:.1f}%'}))
+
+with tab_conclusiones:
+    st.subheader("¿Qué podemos hacer?")
+    st.markdown(
+        """
+### 1 · Resumen ejecutivo 📊
+
+| KPI                          | Valor  | Observación                                          |
+|------------------------------|:------:|------------------------------------------------------|
+| **Clientes analizados**      | **7 043** | Base limpia (`df_clean`)                              |
+| **Tasa global de bajas**     | **26 %** | 1 810 clientes se dieron de baja                     |
+| **ROC-AUC modelo LightGBM**  | **0,81** | Buen poder discriminativo                             |
+| **Segmento crítico (SC)**    | **9,6 %** | 63 % de prob. de baja, ARPU alto                      |
+
+> **Conclusión rápida:** La fuga se concentra en clientes *month-to-month* 🌓, con Internet de fibra óptica y pago por *electronic check* (SC).  
+> Retener ese 9,6 % impacta ≈ 12,4 % de los ingresos anuales.
+
+---
+
+### 2 · Hallazgos clave 🔍
+
+1. **Contrato & Tenure**  
+   • Churn del **43 %** en *month-to-month* (≤ 12 m de antigüedad).  
+   • Contratos de 1-2 años presentan solo **11 %** de bajas.  
+
+2. **Método de pago**  
+   • *Electronic check* duplica la fuga (**36 %**) frente a tarjetas automáticas (**18 %**).  
+
+3. **Servicio de Internet**  
+   • Fibra óptica muestra **8 p.p.** más de bajas que DSL.  
+   • La combinación **fibra + EC** eleva el riesgo a **52 %**.  
+
+4. **Valor (ARPU)**  
+   • Clientes que se fugan pagan **US$ 80** (mediana) versus **US$ 65** de clientes activos.
+
+---
+
+### 3 · Medidas preventivas 🚨🛠️
+
+| # | Acción | Segmento objetivo | KPI esperado |
+|---|--------|-------------------|--------------|
+| **1** | Migrar a contrato anual con descuento de 12 % | SC (*MTM ≤ 12 m*) | Reducir bajas ↘ 15 p.p. |
+| **2** | Incentivar domiciliación de pago (tarjeta/crédito) | Usuarios *electronic check* | ↘ 9 p.p. de bajas en EC |
+| **3** | Paquete “Fibra + Streaming” con upgrade gratuito 3 m | Fibra, Tenure < 6 m | Incrementar fidelidad 6 m |
+| **4** | Campaña proactiva de soporte (call-out) | Predicción *p_baja* > 0,60 | 25 % contacto efectivo |
+| **5** | Feedback loop mensual al modelo | Toda la base | Mantener ROC-AUC > 0,80 |
+
+🎯 **Prioridad:** Acciones **1** y **2** entregan el mayor ROI inmediato sobre ingresos recurrentes.
+        """
+    )
+
 
 # 6. Comparativa ARPU
 crit = (
