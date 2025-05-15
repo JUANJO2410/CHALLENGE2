@@ -51,7 +51,7 @@
 3. **Integración CRM** para triggers de marketing.  
 4. **A/B Testing** de ofertas (MTM → Anual) medido por retención a 90 días.
 
-> ## 5 · Dashboard 🔄
+## 5 · Dashboard 🔄
 
 [📊 Dashboard](https://challenge2-jjramoss.streamlit.app/)
 
