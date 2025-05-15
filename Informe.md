@@ -53,8 +53,8 @@
 
 > ## 5 · Dashboard 🔄
 
-[Dashboard]([(https://challenge2-han9byqwmpgrpwl3lnjqdp.streamlit.app/])
+[📊 Dashboard](https://challenge2-han9byqwmpgrpwl3lnjqdp.streamlit.app/)
 
 ## 6 · Contacto
 
-Juan José Ramos · [LinkedIn]([https://www.linkedin.com/in/juanjramos/](https://www.linkedin.com/in/juan-jose-ramos-b2253727/)) · juan.ramos.s@usach.cl
+juan.ramos.s@usach.cl
