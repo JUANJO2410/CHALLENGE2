@@ -40,7 +40,7 @@ Las compañías de telecomunicaciones afrontan pérdidas significativas debido a
    * Se entrena un **LightGBMClassifier** con variables contractuales, de servicio y de comportamiento de uso.  
    * Métrica principal: **ROC‑AUC ≈ 0.81** y matriz de confusión para un umbral configurable (default 0.40).
 6. **Dashboard Ejecutivo**  
-   * KPIs en tiempo real, gráficos interactivos de Plotly y pestañas para Género/Senior, Fidelidad, Cruces y una Introducción.  
+   * KPIs en tiempo real, gráficos interactivos de Plotly y pestañas para Género/Senior, Fidelidad, Cruces, una Introducción y Conclusiones. Publicado en Streamlit Community Cloud.
    * Descarga de CSV con clientes **de alto riesgo** identificados por el modelo.
 
 ---
