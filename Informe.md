@@ -53,7 +53,7 @@
 
 > ## 5 · Dashboard 🔄
 
-[📊 Dashboard](https://challenge2-han9byqwmpgrpwl3lnjqdp.streamlit.app/)
+[📊 Dashboard](https://challenge2-jjramoss.streamlit.app/)
 
 ## 6 · Contacto
 
