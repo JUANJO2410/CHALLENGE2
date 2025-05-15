@@ -106,7 +106,7 @@ $ streamlit run app_churn.py --server.port 8501
 ## 7. Créditos
 
 Proyecto desarrollado por **Juan José Ramos** (BIM & Data Science).  
-[LinkedIn]([https://www.linkedin.com/in/juanjramos/](https://www.linkedin.com/in/juan-jose-ramos-b2253727/)) · juan.ramos.s@usach.cl
+juan.ramos.s@usach.cl
 
 ---
 
