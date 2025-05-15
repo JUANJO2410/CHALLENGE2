@@ -83,27 +83,7 @@ $ streamlit run app_churn.py --server.port 8501
 
 ---
 
-## 5. Resultados destacados
-
-* **Tasa global de bajas:** 26 %  
-* **Género:** diferencias mínimas (< 2 p.p.) entre hombres y mujeres.  
-* **Senioridad (≥ 65 años):** 5 p.p. menos de bajas, posible mayor fidelización.  
-* **Contratos mensual vs largo plazo:** 89 % de retención en contratos de 1-2 años.  
-* **Método de pago:** _Electronic check_ es el predictor individual más fuerte de churn.  
-* **Segmento crítico:** 9.6 % de la base genera 12.4 % de los ingresos y muestra **63 %** de probabilidad de baja.
-
----
-
-## 6. Próximos pasos
-
-1. **Deploy cloud** del dashboard para el equipo de marketing.  
-2. **Feature engineering** avanzado (patrones de llamadas, demoras de pago).  
-3. Integrar el modelo en un **pipeline MLOps** para re-entrenamiento y scoring periódicos.  
-4. **A/B testing** de campañas de retención personalizadas.
-
----
-
-## 7. Créditos
+## 5. Créditos
 
 Proyecto desarrollado por **Juan José Ramos** (BIM & Data Science).  
 juan.ramos.s@usach.cl
