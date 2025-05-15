@@ -90,6 +90,4 @@ juan.ramos.s@usach.cl
 
 ---
 
-## 8. Licencia
 
-Distribuido bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
