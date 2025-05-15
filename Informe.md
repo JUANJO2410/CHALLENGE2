@@ -37,7 +37,7 @@
 | # | Acción | Segmento objetivo | KPI esperado |
 |:-:|--------|-------------------|--------------|
 | 1 | **Migrar a contrato anual** con descuento de 12 % | SC<br>(MTM ≤ 12m) | Reducir bajas ↘ 15 p.p. |
-| 2 | Incentivar **domiciliación de pago** (tarjeta/crédito) | EC users | ↘ 9 p.p. de bajas en EC |
+| 2 | Incentivar **pago por tarjeta** (debito/crédito) | EC users | ↘ 9 p.p. de bajas en EC |
 | 3 | Paquete **“Fibra + Streaming”** con upgrade gratuito 3 m | Fibra, Tenure < 6m | Incrementar fidelidad 6 m |
 | 4 | **Campaña proactiva** de soporte (call‑out) | Predicción `p_baja > 0,60` | 25 % contacto efectivo |
 | 5 | **Feedback loop** mensual al modelo | Toda la base | Mantener ROC‑AUC > 0,80 |
