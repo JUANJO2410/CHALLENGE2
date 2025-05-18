@@ -9,8 +9,9 @@
 | Ruta/archivo | Descripción |
 |--------------|-------------|
 | `TelecomX_LATAM.ipynb` | Notebook principal con preparación de datos, análisis exploratorio, segmentación y entrenamiento del modelo predictivo. |
+| `Informe.md` | Informe con los hallazgos significativos y soluciones para el cliente. |
 | `app_churn.py` | Aplicación Streamlit que consume el dataset procesado y el modelo LightGBM para explorar métricas y descargar clientes en riesgo. |
-| `data/TelecomX_Data.json` | Dataset original en formato JSON (estructuras anidadas). |
+| `TelecomX_Data.json` | Dataset original en formato JSON (estructuras anidadas). |
 | `requirements.txt` | Dependencias mínimas de Python. |
 
 ---
